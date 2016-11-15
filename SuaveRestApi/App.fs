@@ -12,6 +12,7 @@ let main argv =
         Delete = Db.deletePerson
         GetById = Db.getPerson
         UpdateById = Db.updatePersonById
+        IsExists = Db.isPersonExists
     }
     startWebServer defaultConfig personWebPart
 
